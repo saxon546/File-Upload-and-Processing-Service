@@ -1,6 +1,6 @@
 # File Upload & Processing Service (Spring Boot)
 
-A Spring Boot service that allows users to upload `.txt` or `.csv` files, validates them, counts lines and words, and stores the results in an in‑memory database.
+A Spring Boot service that allows users to upload `.txt` or `.csv` files, validates them, counts lines and words, and stores the results in a ConcurrentHashMap, which acts as an in‑memory database.
 
 
 
@@ -21,7 +21,7 @@ A Spring Boot service that allows users to upload `.txt` or `.csv` files, valida
 ## Tech Stack
 - **Java 17+**  
 - **Spring Boot 3.x** (Web, Validation, Logging)  
-- **Maven** for build and dependency management  
+- **Maven 3.8+** for build and dependency management  
 
 
 
@@ -65,10 +65,7 @@ GET /api/files/{id}
 
 
 
-## Running tests
+## Running Tests
 ```bash
 mvn test
 ```
-
-
-
