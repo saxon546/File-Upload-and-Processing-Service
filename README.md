@@ -2,7 +2,7 @@
 
 A Spring Boot service that allows users to upload `.txt` or `.csv` files, validates them, counts lines and words, and stores the results in an in‑memory database.
 
----
+
 
 ## Features
 - Upload `.txt` and `.csv` files via REST API  
@@ -16,20 +16,20 @@ A Spring Boot service that allows users to upload `.txt` or `.csv` files, valida
 - Structured error responses with Spring Boot’s `ProblemDetail`  
 - Logging of all known exceptions  
 
----
+
 
 ## Tech Stack
 - **Java 17+**  
 - **Spring Boot 3.x** (Web, Validation, Logging)  
 - **Maven** for build and dependency management  
 
----
+
 
 ## Getting Started
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/file-service.git
+git clone https://github.com/saxon546/File-Upload-and-Processing-Service.git
 ```
 
 ### 2. Build the project
