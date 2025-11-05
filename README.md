@@ -30,11 +30,14 @@ A Spring Boot service that allows users to upload `.txt` or `.csv` files, valida
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/your-username/file-service.git
+```
 
 ### 2. Build the project
 ```bash
 mvn clean package
+```
 
 ### 3. Run the service
 ```bash
 mvn spring-boot:run
+```
