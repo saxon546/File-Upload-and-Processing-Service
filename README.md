@@ -41,3 +41,34 @@ mvn clean package
 ```bash
 mvn spring-boot:run
 ```
+The service will run on https://localhost:8585/.
+
+
+
+## API Endpoints
+
+### Upload a file
+```Http
+POST /api/files/upload
+Content-Type: multipart/form-data
+```
+
+### Get all processed files
+```Http
+GET /api/files
+```
+
+### Get a processed file by ID
+```Http
+GET /api/files/{id}
+```
+
+
+
+## Running tests
+```bash
+mvn test
+```
+
+
+
